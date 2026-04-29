@@ -1,0 +1,30 @@
+@FarmerFactory.Api_HostAddress = http://localhost:5249
+@ApiVersion = 1
+
+### Get all clients
+GET {{FarmerFactory.Api_HostAddress}}/api/v{{ApiVersion}}/client
+Accept: application/json
+
+###
+
+### Get all products
+GET {{FarmerFactory.Api_HostAddress}}/api/v{{ApiVersion}}/product
+Accept: application/json
+
+###
+
+### Get all purchases
+GET {{FarmerFactory.Api_HostAddress}}/api/v{{ApiVersion}}/purchase
+Accept: application/json
+
+###
+
+### Create purchase
+POST {{FarmerFactory.Api_HostAddress}}/api/v{{ApiVersion}}/purchase
+Content-Type: application/json
+
+{
+  "clientId": 1,
+  "productId": 1,
+  "qty": 1
+}

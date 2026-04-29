@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="FarmerFactory.Api/FarmerFactory.Api.csproj" />
+  <Project Path="FarmerFactory.AppHost/FarmerFactory.AppHost.csproj" />
+  <Project Path="FarmerFactory.Common/FarmerFactory.Common.csproj" />
+  <Project Path="FarmerFactory.Repositories/FarmerFactory.Repositories.csproj" />
+  <Project Path="FarmerFactory.Services/FarmerFactory.Services.csproj" />
+  <Project Path="FarmerFactory.Test/FarmerFactory.Test.csproj" Id="aaf94814-54c5-4c84-a181-14504b08f18e" />
+  <Project Path="FarmerFactory.Web/FarmerFactory.Web.csproj" />
+</Solution>
